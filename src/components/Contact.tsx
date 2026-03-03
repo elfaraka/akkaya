@@ -29,7 +29,7 @@ const Contact = () => {
                 <Mail className="text-blue-600" size={28} strokeWidth={1.5} />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-slate-800">E-Mail</h3>
-              <p className="text-slate-600">info@rohrleitungsbau.de</p>
+              <p className="text-slate-600">info@akkaya-st.de</p>
             </div>
 
             <div className="text-center">
