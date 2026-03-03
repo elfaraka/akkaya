@@ -75,8 +75,8 @@ const Datenschutz = () => {
             [Firmenname]<br />
             [Straße und Hausnummer]<br />
             [PLZ und Ort]<br /><br />
-            Telefon: +49 (0) 123 456789<br />
-            E-Mail: info@rohrleitungsbau.de
+            Telefon: +49 157 34370201<br />
+            E-Mail: info@akkaya-st.de
           </p>
 
           <h3 className="text-xl font-bold text-slate-800 mb-3 mt-6">Speicherdauer</h3>
