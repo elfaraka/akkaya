@@ -39,24 +39,24 @@ const Navigation = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <button
           onClick={() => scrollToSection('hero')}
-          className="text-xl font-bold tracking-tight text-slate-800 hover:text-blue-600 transition-colors"
+          className="flex items-center hover:opacity-80 transition-opacity"
         >
-          Akkaya Schweißtechnik
+          <img 
+            src="/logo.png" 
+            alt="Akkaya Schweißtechnik" 
+            className="h-12 w-auto"
+          />
         </button>
 
         <div className="hidden md:flex items-center space-x-8">
-        {navItems.map((item) => (
-  <button
-    key={item.id}
-    onClick={() => scrollToSection(item.id)}
-    className={`text-sm font-medium transition-colors ${
-      item.id === 'contact' 
-        ? 'bg-blue-600 text-white px-6 py-2 border-2 border-blue-600 hover:bg-blue-700 hover:border-blue-700' 
-        : 'text-slate-700 hover:text-blue-600'
-    }`}
-  >
-    {item.label}
-  </button>
+          {navItems.map((item) => (
+            <button
+              key={item.id}
+              onClick={() => scrollToSection(item.id)}
+              className="text-sm font-medium text-slate-700 hover:text-blue-600 transition-colors"
+            >
+              {item.label}
+            </button>
           ))}
         </div>
 
