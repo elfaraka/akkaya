@@ -35,8 +35,8 @@ const Impressum = () => {
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4 mt-10">Kontakt</h2>
           <p className="mb-6 text-slate-700">
-            Telefon: +49 (0) 123 456789<br />
-            E-Mail: info@rohrleitungsbau.de
+            Telefon: +49 157 34370201<br />
+            E-Mail: info@akkaya-st.de
           </p>
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4 mt-10">Vertreten durch</h2>
