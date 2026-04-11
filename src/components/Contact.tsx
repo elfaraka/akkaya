@@ -44,7 +44,7 @@ const Contact = () => {
           {/* Call-to-Action Button */}
           <div className="text-center mb-16">
             <a
-              href="mailto:info@rohrleitungsbau.de"
+              href="mailto:info@akkaya-st.de"
               className="inline-flex items-center px-8 py-4 bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-all duration-300 transform hover:scale-105 shadow-lg"
             >
               <Mail className="mr-2" size={20} />
