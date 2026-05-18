@@ -27,9 +27,9 @@ const Impressum = () => {
           
           <h2 className="text-2xl font-bold text-slate-800 mb-4">Angaben gemäß § 5 TMG</h2>
           <p className="mb-6 text-slate-700">
-            [Firmenname]<br />
-            [Straße und Hausnummer]<br />
-            [PLZ und Ort]<br />
+            Akkaya Schweisstechnik<br />
+            Reinholdstraße 49<br />
+            47137 Duisburg<br />
             Deutschland
           </p>
 
@@ -47,19 +47,17 @@ const Impressum = () => {
           <h2 className="text-2xl font-bold text-slate-800 mb-4 mt-10">Umsatzsteuer-ID</h2>
           <p className="mb-6 text-slate-700">
             Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:<br />
-            [USt-IdNr.]
+            107/5001/8721
           </p>
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4 mt-10">Handelsregister</h2>
           <p className="mb-6 text-slate-700">
-            Registergericht: [Amtsgericht]<br />
-            Registernummer: [HRB-Nummer]
+            Registergericht: Amtsgericht Duisburg<br />
           </p>
 
           <h2 className="text-2xl font-bold text-slate-800 mb-4 mt-10">Berufsbezeichnung und berufsrechtliche Regelungen</h2>
           <p className="mb-6 text-slate-700">
-            Berufsbezeichnung: [z.B. Meisterbetrieb]<br />
-            Zuständige Kammer: [z.B. Handwerkskammer]<br />
+            Berufsbezeichnung: Meisterbetrieb Schweissbetrieb<br />
             Verliehen in: Deutschland
           </p>
 
